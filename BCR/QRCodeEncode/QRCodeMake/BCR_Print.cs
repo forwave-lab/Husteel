@@ -49,34 +49,34 @@ namespace QRCodeMake
             var result = new Dictionary<string, string>();
             try
             {                
-                result.Add("Bcr_DocType", DocNo);      //바코드문서(공정ID - 스켈프:100, 절단:104, 관단:105, 흑관하조:303, 백관하조:365,수출:900)
-                result.Add("Bcr_Id", "SAME AS OPPOSITE");              //ID
-                result.Add("Bcr_PoNo", "CB80164");            //PO NO
-                result.Add("Bcr_SoNo", "PO No.05004");            //SO No
-                result.Add("Bcr_Wo", "PD22110127");              //제조오더
-                result.Add("Bcr_ProductName", "S0-POSP340A / 148 / 2.9");     //품종
-                result.Add("Bcr_Spec", "POSP340A * 148 * 2.9");            //치수
-                result.Add("Bcr_Qty", "14911");             //본수
-                result.Add("Bcr_LotNo", "LOT NO.:2K27D0001");           //Lot No
-                result.Add("Bcr_Coating", "코팅유 511");         //코팅
-                result.Add("Bcr_Inspector", "INSPECTOR:권영탁");       //책임검사자    
-                result.Add("Bcr_BP", "VANCOUVER-BC");              //주문처
-                result.Add("Bcr_HeatNo", "HEAT NO:A38093");          //Heat No
-                result.Add("Bcr_Kind", "ABCD");            //재질
-                result.Add("Bcr_CoilNo", "PD22110127");          //Coil No
-                result.Add("Bcr_Weight", "7000");          //중량
-                result.Add("Bcr_Diameter", "610.0");        //외경
-                result.Add("Bcr_Thickness", "0990");       //두께
-                result.Add("Bcr_Length", "6.000");          //길이
-                result.Add("Bcr_Marking", "Marking");          //길이
-                result.Add("Bcr_Date", "11/28");            //생산일자
-                result.Add("Bcr_PCSLIFT", "3 PCS/LIFT");         //PCS/LIFT
-                result.Add("Bcr_BundleNo", "");        //번들 No
-                result.Add("Bcr_Note", "시편");            //비고
+                result.Add("Bcr_DocType", DocNo);                           //바코드문서(공정ID - 스켈프:100, 절단:104, 관단:105, 흑관하조:303, 백관하조:365,수출:900)
+                result.Add("Bcr_Id", "SAME AS OPPOSITE");                   //ID(바코드생성용)
+                result.Add("Bcr_PoNo", "CB80164");                          //PO NO
+                result.Add("Bcr_SoNo", "PO No.05004");                      //수주번호
+                result.Add("Bcr_Wo", "PD22110127");                         //제조오더
+                result.Add("Bcr_ProductName", "S0-POSP340A / 148 / 2.9");   //품종
+                result.Add("Bcr_Spec", "POSP340A * 148 * 2.9");             //치수
+                result.Add("Bcr_Qty", "14911");                             //본수
+                result.Add("Bcr_LotNo", "LOT NO.:2K27D0001");               //Lot No
+                result.Add("Bcr_Coating", "코팅유 511");                    //코팅
+                result.Add("Bcr_Inspector", "INSPECTOR:권영탁");            //책임검사자    
+                result.Add("Bcr_BP", "VANCOUVER-BC");                       //주문처
+                result.Add("Bcr_HeatNo", "HEAT NO:A38093");                 //Heat No
+                result.Add("Bcr_Kind", "ABCD");                             //재질
+                result.Add("Bcr_CoilNo", "PD22110127");                     //Coil No
+                result.Add("Bcr_Weight", "7000");                           //중량
+                result.Add("Bcr_Diameter", "610.0");                        //외경
+                result.Add("Bcr_Thickness", "0990");                        //두께
+                result.Add("Bcr_Length", "6.000");                          //길이
+                result.Add("Bcr_Marking", "Marking");                       //마킹정보
+                result.Add("Bcr_Date", "11/28");                            //생산일자
+                result.Add("Bcr_PCSLIFT", "3 PCS/LIFT");                    //PCS/LIFT
+                result.Add("Bcr_BundleNo", "");                             //번들 No
+                result.Add("Bcr_Note", "시편");                             //비고
                 result.Add("Bcr_Desc", "특이사항이표시됩니다.");             //특이사항
-                result.Add("Bcr_Cnt", copies.ToString());//출력매수
-                result.Add("Bcr_TagLotNo", "2K27D");         //Tag LotNo
-                result.Add("Bcr_Result", "OK");        //Message
+                result.Add("Bcr_Cnt", copies.ToString());                   //출력매수
+                result.Add("Bcr_TagLotNo", "2K27D");                        //Tag LotNo
+                result.Add("Bcr_Result", "OK");                             //Message
                 return result;
             }
             catch (Exception ex)
