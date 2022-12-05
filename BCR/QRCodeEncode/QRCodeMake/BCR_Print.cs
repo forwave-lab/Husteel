@@ -52,16 +52,16 @@ namespace QRCodeMake
                 result.Add("Bcr_DocType", DocNo);                           //바코드문서(공정ID - 스켈프:100, 절단:104, 관단:105, 흑관하조:303, 백관하조:365,수출:900)
                 result.Add("Bcr_Id", "SAME AS OPPOSITE");                   //ID(바코드생성용)
                 result.Add("Bcr_PoNo", "CB80164");                          //PO NO
-                result.Add("Bcr_SoNo", "PO No.05004");                      //수주번호
+                result.Add("Bcr_SoNo", "05004");                      //수주번호
                 result.Add("Bcr_Wo", "PD22110127");                         //제조오더
                 result.Add("Bcr_ProductName", "S0-POSP340A / 148 / 2.9");   //품종
                 result.Add("Bcr_Spec", "POSP340A * 148 * 2.9");             //치수
                 result.Add("Bcr_Qty", "14911");                             //본수
-                result.Add("Bcr_LotNo", "LOT NO.:2K27D0001");               //Lot No
+                result.Add("Bcr_LotNo", "2K27D0001");               //Lot No
                 result.Add("Bcr_Coating", "코팅유 511");                    //코팅
-                result.Add("Bcr_Inspector", "INSPECTOR:권영탁");            //책임검사자    
+                result.Add("Bcr_Inspector", "권영탁");            //책임검사자    
                 result.Add("Bcr_BP", "VANCOUVER-BC");                       //주문처
-                result.Add("Bcr_HeatNo", "HEAT NO:A38093");                 //Heat No
+                result.Add("Bcr_HeatNo", "A38093");                 //Heat No
                 result.Add("Bcr_Kind", "ABCD");                             //재질
                 result.Add("Bcr_CoilNo", "PD22110127");                     //Coil No
                 result.Add("Bcr_Weight", "7000");                           //중량

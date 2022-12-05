@@ -82,6 +82,12 @@
     <Compile Include="BCR\Cutting\Re_Cutting.Designer.cs">
       <DependentUpon>Re_Cutting.cs</DependentUpon>
     </Compile>
+    <Compile Include="BCR\Export\Re_Canada_Grid.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BCR\Export\Re_Canada_Grid.Designer.cs">
+      <DependentUpon>Re_Canada_Grid.cs</DependentUpon>
+    </Compile>
     <Compile Include="BCR\Export\Re_Canada.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -114,6 +120,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="BCR\Cutting\Re_Cutting.resx">
       <DependentUpon>Re_Cutting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BCR\Export\Re_Canada_Grid.resx">
+      <DependentUpon>Re_Canada_Grid.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="BCR\Export\Re_Canada.resx">
       <DependentUpon>Re_Canada.cs</DependentUpon>

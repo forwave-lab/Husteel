@@ -195,3 +195,4 @@ D:\01.bizentro\01.MES\99.site\03.휴스틸\400. 구현단계\일정관리\BCR\QR
 D:\01.bizentro\01.MES\99.site\03.휴스틸\400. 구현단계\일정관리\BCR\QRCodeEncode\QRCodeMake\obj\Debug\QRCodeMake.BCR.Export.Re_Canada.resources
 D:\01.bizentro\01.MES\99.site\03.휴스틸\400. 구현단계\일정관리\BCR\QRCodeEncode\QRCodeMake\obj\Debug\QRCodeMake.csproj.AssemblyReference.cache
 D:\01.bizentro\01.MES\99.site\03.휴스틸\400. 구현단계\일정관리\BCR\QRCodeEncode\QRCodeMake\obj\Debug\QRCodeMake.BCR.Bevel.Re_Bevel.resources
+D:\01.bizentro\01.MES\99.site\03.휴스틸\400. 구현단계\일정관리\BCR\QRCodeEncode\QRCodeMake\obj\Debug\QRCodeMake.BCR.Export.Re_Canada_Grid.resources

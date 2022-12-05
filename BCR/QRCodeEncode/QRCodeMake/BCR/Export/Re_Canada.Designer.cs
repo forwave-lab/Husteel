@@ -35,6 +35,7 @@ namespace QRCodeMake.BCR.Export
             this.TopMargin = new DevExpress.XtraReports.UI.TopMarginBand();
             this.BottomMargin = new DevExpress.XtraReports.UI.BottomMarginBand();
             this.Detail = new DevExpress.XtraReports.UI.DetailBand();
+            this.Bcr_Id = new DevExpress.XtraReports.UI.XRLabel();
             this.xrBcr_Id2 = new DevExpress.XtraReports.UI.XRBarCode();
             this.xrBcr_Id1 = new DevExpress.XtraReports.UI.XRBarCode();
             this.xrBcr_Id = new DevExpress.XtraReports.UI.XRBarCode();
@@ -48,7 +49,6 @@ namespace QRCodeMake.BCR.Export
             this.Bcr_ProductName = new DevExpress.XtraReports.UI.XRLabel();
             this.Bcr_BP = new DevExpress.XtraReports.UI.XRLabel();
             this.Bcr_PoNo = new DevExpress.XtraReports.UI.XRLabel();
-            this.Bcr_Id = new DevExpress.XtraReports.UI.XRLabel();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             // 
             // TopMargin
@@ -85,17 +85,31 @@ namespace QRCodeMake.BCR.Export
             this.Detail.HierarchyPrintOptions.Indent = 50.8F;
             this.Detail.Name = "Detail";
             // 
+            // Bcr_Id
+            // 
+            this.Bcr_Id.Dpi = 254F;
+            this.Bcr_Id.Font = new System.Drawing.Font("맑은 고딕", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.Bcr_Id.LocationFloat = new DevExpress.Utils.PointFloat(44.33321F, 909.5953F);
+            this.Bcr_Id.Multiline = true;
+            this.Bcr_Id.Name = "Bcr_Id";
+            this.Bcr_Id.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.Bcr_Id.SizeF = new System.Drawing.SizeF(862.6669F, 95.25F);
+            this.Bcr_Id.StylePriority.UseFont = false;
+            this.Bcr_Id.StylePriority.UseTextAlignment = false;
+            this.Bcr_Id.Text = "Bcr_Id";
+            this.Bcr_Id.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
+            // 
             // xrBcr_Id2
             // 
             this.xrBcr_Id2.Alignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
             this.xrBcr_Id2.AutoModule = true;
             this.xrBcr_Id2.Dpi = 254F;
             this.xrBcr_Id2.Font = new System.Drawing.Font("맑은 고딕", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.xrBcr_Id2.LocationFloat = new DevExpress.Utils.PointFloat(672.0415F, 695.991F);
+            this.xrBcr_Id2.LocationFloat = new DevExpress.Utils.PointFloat(672.0415F, 695.9911F);
             this.xrBcr_Id2.Name = "xrBcr_Id2";
             this.xrBcr_Id2.Padding = new DevExpress.XtraPrinting.PaddingInfo(26, 26, 0, 0, 254F);
             this.xrBcr_Id2.ShowText = false;
-            this.xrBcr_Id2.SizeF = new System.Drawing.SizeF(234.9585F, 258.5834F);
+            this.xrBcr_Id2.SizeF = new System.Drawing.SizeF(234.9586F, 213.6043F);
             this.xrBcr_Id2.StylePriority.UseFont = false;
             this.xrBcr_Id2.StylePriority.UseTextAlignment = false;
             qrCodeGenerator1.Version = DevExpress.XtraPrinting.BarCode.QRCodeVersion.Version1;
@@ -109,11 +123,11 @@ namespace QRCodeMake.BCR.Export
             this.xrBcr_Id1.AutoModule = true;
             this.xrBcr_Id1.Dpi = 254F;
             this.xrBcr_Id1.Font = new System.Drawing.Font("맑은 고딕", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.xrBcr_Id1.LocationFloat = new DevExpress.Utils.PointFloat(346.0834F, 695.991F);
+            this.xrBcr_Id1.LocationFloat = new DevExpress.Utils.PointFloat(346.0834F, 695.9911F);
             this.xrBcr_Id1.Name = "xrBcr_Id1";
             this.xrBcr_Id1.Padding = new DevExpress.XtraPrinting.PaddingInfo(26, 26, 0, 0, 254F);
             this.xrBcr_Id1.ShowText = false;
-            this.xrBcr_Id1.SizeF = new System.Drawing.SizeF(234.9585F, 258.5834F);
+            this.xrBcr_Id1.SizeF = new System.Drawing.SizeF(234.9584F, 213.6043F);
             this.xrBcr_Id1.StylePriority.UseFont = false;
             this.xrBcr_Id1.StylePriority.UseTextAlignment = false;
             qrCodeGenerator2.Version = DevExpress.XtraPrinting.BarCode.QRCodeVersion.Version1;
@@ -127,11 +141,11 @@ namespace QRCodeMake.BCR.Export
             this.xrBcr_Id.AutoModule = true;
             this.xrBcr_Id.Dpi = 254F;
             this.xrBcr_Id.Font = new System.Drawing.Font("맑은 고딕", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.xrBcr_Id.LocationFloat = new DevExpress.Utils.PointFloat(42.33317F, 695.991F);
+            this.xrBcr_Id.LocationFloat = new DevExpress.Utils.PointFloat(42.33317F, 695.9911F);
             this.xrBcr_Id.Name = "xrBcr_Id";
             this.xrBcr_Id.Padding = new DevExpress.XtraPrinting.PaddingInfo(26, 26, 0, 0, 254F);
             this.xrBcr_Id.ShowText = false;
-            this.xrBcr_Id.SizeF = new System.Drawing.SizeF(234.9585F, 258.5834F);
+            this.xrBcr_Id.SizeF = new System.Drawing.SizeF(234.9585F, 213.6043F);
             this.xrBcr_Id.StylePriority.UseFont = false;
             this.xrBcr_Id.StylePriority.UseTextAlignment = false;
             qrCodeGenerator3.Version = DevExpress.XtraPrinting.BarCode.QRCodeVersion.Version1;
@@ -258,20 +272,6 @@ namespace QRCodeMake.BCR.Export
             this.Bcr_PoNo.SizeF = new System.Drawing.SizeF(864.6669F, 68.79166F);
             this.Bcr_PoNo.StylePriority.UseFont = false;
             this.Bcr_PoNo.Text = "Bcr_PoNo";
-            // 
-            // Bcr_Id
-            // 
-            this.Bcr_Id.Dpi = 254F;
-            this.Bcr_Id.Font = new System.Drawing.Font("맑은 고딕", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.Bcr_Id.LocationFloat = new DevExpress.Utils.PointFloat(42.33317F, 954.5745F);
-            this.Bcr_Id.Multiline = true;
-            this.Bcr_Id.Name = "Bcr_Id";
-            this.Bcr_Id.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
-            this.Bcr_Id.SizeF = new System.Drawing.SizeF(862.6668F, 68.79169F);
-            this.Bcr_Id.StylePriority.UseFont = false;
-            this.Bcr_Id.StylePriority.UseTextAlignment = false;
-            this.Bcr_Id.Text = "Bcr_Id";
-            this.Bcr_Id.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
             // 
             // Re_Canada
             // 
