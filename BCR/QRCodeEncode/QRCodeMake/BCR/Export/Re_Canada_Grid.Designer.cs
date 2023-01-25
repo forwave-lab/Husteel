@@ -401,7 +401,7 @@ namespace QRCodeMake.BCR.Export
             this.xrBcr_Id1.AutoModule = true;
             this.xrBcr_Id1.Dpi = 254F;
             this.xrBcr_Id1.Font = new System.Drawing.Font("맑은 고딕", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.xrBcr_Id1.LocationFloat = new DevExpress.Utils.PointFloat(359.8332F, 695.9911F);
+            this.xrBcr_Id1.LocationFloat = new DevExpress.Utils.PointFloat(346.08F, 695.99F);
             this.xrBcr_Id1.Name = "xrBcr_Id1";
             this.xrBcr_Id1.Padding = new DevExpress.XtraPrinting.PaddingInfo(26, 26, 0, 0, 254F);
             this.xrBcr_Id1.ShowText = false;
